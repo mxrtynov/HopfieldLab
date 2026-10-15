@@ -22,7 +22,7 @@ hopfield-lab/
 ```mermaid
 graph TD
     P[patterns.py<br>Эталоны букв М, А, Р 5×7] --> H[hopfield.py<br>Сеть Хопфилда + Шум + Распознаватель]
-    P --> UI[ui.py<br>Графический UI и графики]
+    P --> UI[ui.py<br> UI и графики]
     H --> UI
     UI --> Main[main.py<br>Точка входа]
 
